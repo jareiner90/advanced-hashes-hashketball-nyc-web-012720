@@ -240,10 +240,10 @@ def big_shoe_rebounds
     team_info.each do |team_keys, team_values|
       if team_keys == :players
         team_values.each do |player|
-          player.each do |player_key, player_value| 
+          player.each do |player_key, player_value|
             binding.pry
-          end 
-        end 
+          end
+        end
       end
     end
   end
