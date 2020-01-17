@@ -242,7 +242,7 @@ def big_shoe_rebounds
         team_values.each do |player|
           player.each do |player_key, player_value|
             binding.pry
-            if player_value == find_big_shoe_rebounds
+            if player_value[:shoe] == find_big_shoe_rebounds
               return player_key[:rebounds]
             end
           end
