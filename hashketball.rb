@@ -238,7 +238,9 @@ end
 def big_shoe_rebounds
   game_hash.each do |place, team_info|
     team_info.each do |team_keys, team_values|
-      binding.pry
+      if team_keys == :players
+        
+      end
     end
   end
 end
