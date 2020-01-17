@@ -235,7 +235,7 @@ def find_big_shoe_rebounds
   return shoes.max
 end
 
-def big_shoe_rebounds(helper)
+def big_shoe_rebounds
   game_hash.each do |place, team_info|
     binding.pry
   end
